@@ -1746,3 +1746,6 @@ const authors = [
   const getActiveUsers = (users) =>
     users.filter(({ isActive }) => isActive === true);
   console.log(getActiveUsers(allUsers));
+  
+  let name = "Ira"
+  console.log(name)
